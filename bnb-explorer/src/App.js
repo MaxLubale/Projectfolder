@@ -4,8 +4,7 @@ import NavBar from './Components/NavBar';
 import Home from './Components/Home';
 import Services from './Components/Services';
 import BookingForm from './Components/BookingForm';
-import AboutUs from './Components/AboutUs';
-import Footer from './Components/Footer';
+
 function App() {
  return (
     <div>
@@ -15,9 +14,9 @@ function App() {
         <Route path="/home" element={<Home />}></Route>
       <Route path="/services"element={<Services/>}  ></Route>
       <Route path= "/boking form"element={<BookingForm/>}></Route>
-          </Routes>
-          <AboutUs />
-          <Footer />
+           </Routes>
+           
+           
     </div>
   )
 }
